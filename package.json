@@ -1,0 +1,19 @@
+{
+  "name": "website1",
+  "version": "1.0.0",
+  "description": "luanle",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev":"live-server public/index.html"
+  },
+  "keywords": [],
+  "author": "luanle",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
