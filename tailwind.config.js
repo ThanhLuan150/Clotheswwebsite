@@ -27,7 +27,7 @@ module.exports = {
         fadeIn: 'fadeIn .5s ease-in-out',
       },
       backgroundImage:{
-        'slide-bg':'url("./img/slider-bg.jpeg")'
+        'slide-bg':'url("./image/banner1.webp")'
       }
     },
   },
